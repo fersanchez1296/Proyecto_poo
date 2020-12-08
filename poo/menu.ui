@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QWidget" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>721</width>
+    <height>361</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#agenda{
+background: transparent;
+border:none;
+background-image: url(:/icons/icons/agenda.png);
+}
+
+#agenda:hover{
+border: 1px solid rgb(238, 238, 236);
+}
+
+#calendario{
+background: transparent;
+border:none;
+background-image: url(:/icons/icons/calendario.png);
+}
+
+#calendario:hover{
+border: 1px solid rgb(238, 238, 236);
+}
+
+#editor{
+background: transparent;
+border:none;
+	background-image: url(:/icons/icons/editor.png);
+}
+
+#editor:hover{
+border: 1px solid rgb(238, 238, 236);
+}
+
+#navegador{
+background: transparent;
+border:none;
+	background-image: url(:/icons/icons/navegador.png);
+}
+
+#navegador:hover{
+border: 1px solid rgb(238, 238, 236);
+}
+
+</string>
+  </property>
+  <widget class="QPushButton" name="agenda">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>161</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="calendario">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>80</y>
+     <width>161</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

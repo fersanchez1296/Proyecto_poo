@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/degradado.jpg</file>
+        <file>icons/icon.png</file>
+        <file>icons/pass.png</file>
+        <file>icons/user.png</file>
+        <file>icons/email.png</file>
+        <file>icons/name.png</file>
+        <file>icons/phone.png</file>
+        <file>icons/close.png</file>
+        <file>icons/delete.png</file>
+        <file>icons/edit.png</file>
+        <file>icons/open.png</file>
+        <file>icons/saveas.png</file>
+        <file>icons/save.png</file>
+        <file>icons/closes.png</file>
+        <file>icons/about.png</file>
+        <file>icons/faq.png</file>
+        <file>icons/help.png</file>
+        <file>icons/update.png</file>
+        <file>icons/close2.png</file>
+        <file>icons/closes2.png</file>
+        <file>icons/delete2.png</file>
+        <file>icons/help2.png</file>
+        <file>icons/save2.png</file>
+        <file>icons/agenda.png</file>
+        <file>icons/calendario.png</file>
+        <file>icons/home.png</file>
+        <file>icons/213816.jpg</file>
+        <file>icons/320457.jpg</file>
+        <file>icons/pexels-pok-rie-2049422.jpg</file>
+        <file>icons/universo-de-colores_3840x2400_xtrafondos.com.jpg</file>
+        <file>icons/pngegg(8).png</file>
+    </qresource>
+</RCC>

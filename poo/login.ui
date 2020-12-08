@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QMainWindow" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>317</width>
+    <height>499</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>317</width>
+    <height>499</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>317</width>
+    <height>499</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>login</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#line_user{	
+	background-color:rgb(211, 215, 207);	
+	border-radius: 15px ;
+	color:rgb(46, 52, 54);
+	margin-bottom: 20px;
+	margin-left:10px;
+	margin-right:10px;
+	font-size: 15pt;
+}
+
+#line_user:focus{
+	
+	border-bottom: 3px solid rgb(138, 226, 52);
+	border-right: 3px solid rgb(138, 226, 52);
+	color: rgb(255, 255, 255);
+}
+
+
+#line_pass{	
+	
+	background-color:rgb(211, 215, 207);	
+	border-radius: 15px ;
+	color:rgb(46, 52, 54);
+	margin-bottom: 20px;
+	margin-left:10px;
+	margin-right:10px;
+	font-size: 15pt;
+}
+
+#line_pass:focus{
+	
+	border-bottom: 3px solid rgb(138, 226, 52);
+border-right: 3px solid rgb(138, 226, 52);
+	color: rgb(255, 255, 255);
+}
+
+#log_btn{	
+	background-color:rgb(138, 226, 52);	
+	border-radius: 15px ;
+	color:rgb(255, 255, 255);
+	margin-bottom: 20px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#log_btn:hover{
+	color:rgb(252, 233, 79);
+	border-bottom: 3px solid  rgb(252, 233, 79);
+	border-right:3px solid  rgb(252, 233, 79);
+}
+
+#sign_btn{
+color:rgb(46, 52, 54);
+border:none;
+bacground-color; transparent;
+}
+
+#sign_btn:hover{
+border-bottom: 3px solid  rgb(138, 226, 52);
+color:rgb(138, 226, 52);
+}
+
+
+#icon_user{
+	background-image: url(:/icons/icons/user.png);
+
+}
+
+#icon_pass{
+	
+	background-image: url(:/icons/icons/pass.png);
+
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="line_pass">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_user">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>30</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="log_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LOG IN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sign_btn">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>410</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_user">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>160</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_pass">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>250</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>317</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
